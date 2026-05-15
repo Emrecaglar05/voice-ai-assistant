@@ -1,0 +1,53 @@
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+*.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Data files (use .gitkeep in data/ dirs)
+*.csv
+*.xlsx
+*.xls
+*.db
+*.sqlite3
+!requirements.txt
+
+# Models (too large for git)
+*.pkl
+*.h5
+*.pt
+*.pth
+*.onnx
+*.joblib
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+logs/
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Misc
+catboost_info/
+mlruns/
